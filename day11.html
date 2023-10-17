@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'poppins',sans-serif;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #2f363e;
+        }
+        .box{
+            position: relative;
+            width: 450px;
+            height: 550px;
+            border-radius: 30px;
+            background:#2f363e ;
+            box-shadow: 25px 25px 75px inset 5px 5px;
+             
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box">
+<h2>To Do List</h2>
+<input type="text" placeholder="write here......." id="inputBx">
+<ul id="list"></ul>
+    
+    
+    </div>
+</div>
+</body>
+</html>

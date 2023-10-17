@@ -1,0 +1,45 @@
+/* css */
+/* h1{
+    color:rgb(17, 117, 135);
+    text-align: center;
+    background-color: aqua;
+} */
+
+/* id */
+#demo{
+    color: antiquewhite;
+   text-align: center;
+     background-color: black;
+}
+/*<!--class-->*/
+.demo1{
+    color: antiquewhite;
+   text-align: center;
+     background-color: rgb(56, 19, 156);
+
+}
+/* universe */
+*{
+    color: rgb(215, 21, 37);
+   text-align: center;
+    
+}
+
+/* group */
+h1,p{
+    color: rgb(215, 21, 37);
+   text-align: center;
+    
+}
+/* element */
+
+h1{
+    color: rgb(215, 21, 37);
+   text-align: center;
+}
+
+h2{
+    color: rgb(215, 199, 21);
+   text-align: center;
+}
+    
